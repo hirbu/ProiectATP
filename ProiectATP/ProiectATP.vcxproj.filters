@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\screens">
+      <UniqueIdentifier>{d12efb39-0e1c-4a68-a74f-c8c15e1187f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screens">
+      <UniqueIdentifier>{153218a3-e349-4fb0-af58-da4fb5530f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\files">
+      <UniqueIdentifier>{4fb6091d-0b8d-41b3-ada0-413bbfe4e07c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\stocks">
+      <UniqueIdentifier>{004b9f81-2a7a-473a-b116-4112a63dacfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screens\stocks">
+      <UniqueIdentifier>{e4df8647-1482-409a-9576-ac7fcd334b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screens\files">
+      <UniqueIdentifier>{2aef1f9a-2aba-4e8c-93fc-4a27169f3d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\screens\stocks\reports">
+      <UniqueIdentifier>{097657db-836a-4866-9cb7-47c73033e33d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\screens\stocks\reports">
+      <UniqueIdentifier>{55162be1-249a-41fb-a318-1428ebbf8f5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ProiectATP.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="file.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainMenu.screen.c">
+      <Filter>Source Files\screens</Filter>
+    </ClCompile>
+    <ClCompile Include="addStock.screen.c">
+      <Filter>Source Files\screens\stocks</Filter>
+    </ClCompile>
+    <ClCompile Include="createFile.screen.c">
+      <Filter>Source Files\screens\files</Filter>
+    </ClCompile>
+    <ClCompile Include="loadFile.screen.c">
+      <Filter>Source Files\screens\files</Filter>
+    </ClCompile>
+    <ClCompile Include="editStock.screen.c">
+      <Filter>Source Files\screens\stocks</Filter>
+    </ClCompile>
+    <ClCompile Include="updatePrice.screen.c">
+      <Filter>Source Files\screens\stocks</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteStock.screen.h">
+      <Filter>Header Files\screens\stocks</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteStock.screen.c">
+      <Filter>Source Files\screens\stocks</Filter>
+    </ClCompile>
+    <ClCompile Include="reports.screen.c">
+      <Filter>Source Files\screens\stocks\reports</Filter>
+    </ClCompile>
+    <ClCompile Include="all.reports.screen.c">
+      <Filter>Source Files\screens\stocks\reports</Filter>
+    </ClCompile>
+    <ClCompile Include="single.reports.c">
+      <Filter>Source Files\screens\stocks\reports</Filter>
+    </ClCompile>
+    <ClCompile Include="profitable.reports.screen.c">
+      <Filter>Source Files\screens\stocks\reports</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mainMenu.screen.h">
+      <Filter>Header Files\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="screens.h">
+      <Filter>Header Files\screens</Filter>
+    </ClInclude>
+    <ClInclude Include="createFile.screen.h">
+      <Filter>Header Files\screens\files</Filter>
+    </ClInclude>
+    <ClInclude Include="loadFile.screen.h">
+      <Filter>Header Files\screens\files</Filter>
+    </ClInclude>
+    <ClInclude Include="addStock.screen.h">
+      <Filter>Header Files\screens\stocks</Filter>
+    </ClInclude>
+    <ClInclude Include="editStock.screen.h">
+      <Filter>Header Files\screens\stocks</Filter>
+    </ClInclude>
+    <ClInclude Include="updatePrice.screen.h">
+      <Filter>Header Files\screens\stocks</Filter>
+    </ClInclude>
+    <ClInclude Include="reports.screen.h">
+      <Filter>Header Files\screens\stocks\reports</Filter>
+    </ClInclude>
+    <ClInclude Include="all.reports.screen.h">
+      <Filter>Header Files\screens\stocks\reports</Filter>
+    </ClInclude>
+    <ClInclude Include="single.reports.screen.h">
+      <Filter>Header Files\screens\stocks\reports</Filter>
+    </ClInclude>
+    <ClInclude Include="profitable.reports.screen.h">
+      <Filter>Header Files\screens\stocks\reports</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
